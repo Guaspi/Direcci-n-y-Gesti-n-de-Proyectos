@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Selecciona tus patrones"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgCheck1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Verificación Patrón 1"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imgCheck2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="Verificación Patrón 2"
+        android:visibility="gone" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        android:padding="8dp">
+
+
+        <ImageButton
+            android:id="@+id/btnbuho"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/border_default"
+            android:src="@drawable/buho"/>
+
+
+        <ImageButton
+            android:id="@+id/btncerdo"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/border_default"
+            android:src="@drawable/cerdo"/>
+
+        <ImageButton
+            android:id="@+id/btnconejo"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/border_default"
+            android:src="@drawable/conejo"/>
+
+        <ImageButton
+            android:id="@+id/btngato"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/border_default"
+            android:src="@drawable/gato"/>
+
+        <ImageButton
+            android:id="@+id/btnloro"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/border_default"
+            android:src="@drawable/loro"/>
+
+        <ImageButton
+            android:id="@+id/btntortuga"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/border_default"
+            android:src="@drawable/tortuga"/>
+
+    </GridLayout>
+
+</LinearLayout>

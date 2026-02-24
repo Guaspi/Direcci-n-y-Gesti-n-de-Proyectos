@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863823154213",
+    "project_id": "appugr",
+    "storage_bucket": "appugr.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863823154213:android:50433951edb6ce91a883cc",
+        "android_client_info": {
+          "package_name": "com.example.appugr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_VQXe4NWFWzcNn26gX_rZG-g3-9sMJGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

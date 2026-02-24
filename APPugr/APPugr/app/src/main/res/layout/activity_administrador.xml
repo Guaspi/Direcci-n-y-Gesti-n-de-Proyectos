@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Campo para el nombre del alumno -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del alumno:"
+            android:textSize="16sp"
+            android:paddingBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etNombreAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el nombre"
+            android:inputType="textPersonName" />
+
+        <!-- Botón para seleccionar una imagen -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen:"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Imagen seleccionada" />
+
+
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen" />
+
+        <!-- Descripción del tipo de accesibilidad -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de accesibilidad:"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerAccesibilidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patrón 1"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_patron1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patrón 2"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_patron2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Botón para dar de alta -->
+        <Button
+            android:id="@+id/btnDarDeAlta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dar de alta"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
